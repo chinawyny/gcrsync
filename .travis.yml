@@ -16,7 +16,7 @@ go:
   - 1.11.x
 before_install:
 - wget https://github.com/mritd/gcrsync/releases/download/v1.3.2/gcrsync_linux_amd64
-- mv gcrsync_linux_amd64 gcrsync
+- sudo mv gcrsync_linux_amd64 gcrsync
 - chmod +x gcrsync
 - sudo mv gcrsync /usr/local/bin/
 script:
