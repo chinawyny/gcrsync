@@ -15,3 +15,7 @@
 - gcr.io/distroless/java:debug
 - gcr.io/distroless/dotnet:latest
 - gcr.io/distroless/dotnet:debug
+### 2019-01-28 16:29:58 Update:
+
+- gcr.io/distroless/nodejs:debug
+- gcr.io/distroless/nodejs:latest
