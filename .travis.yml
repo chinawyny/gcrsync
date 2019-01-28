@@ -25,4 +25,4 @@ script:
  # - gcrsync sync --querylimit 20 --processlimit 10 --httptimeout 10s --user ${DOCKER_USER} --password ${DOCKER_PASSWORD} --githubtoken ${GITHUB_TOKEN} --namespace istio-release  --githubrepo chinawyny/gcrsync
  # - gcrsync sync --querylimit 20 --processlimit 10 --httptimeout 10s --user ${DOCKER_USER} --password ${DOCKER_PASSWORD} --githubtoken ${GITHUB_TOKEN} --namespace linkerd-io  --githubrepo chinawyny/gcrsync
  # - gcrsync sync --querylimit 20 --processlimit 10 --httptimeout 10s --user ${DOCKER_USER} --password ${DOCKER_PASSWORD} --githubtoken ${GITHUB_TOKEN} --namespace spinnaker-marketplace  --githubrepo chinawyny/gcrsync
-  - gcrsync sync --querylimit 20 --processlimit 10 --httptimeout 10s --user ${DOCKER_USER} --password ${DOCKER_PASSWORD} --githubtoken ${GITHUB_TOKEN} --namespace distroless  --githubrepo chinawyny/gcrsync
+  - gcrsync sync --querylimit 20 --processlimit 10 --httptimeout 10s --user ${DOCKER_USER} --password ${DOCKER_PASSWORD} --githubtoken ${GITHUB_TOKEN} --namespace distroless  --githubrepo chinawyny/change_log
